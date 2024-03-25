@@ -26,7 +26,7 @@ Your primary objective is to optimise the search functionality by implementing d
 #### Project Files
 - **index.js**: Entry point of the application. You might need to import and render the `Search` component here.
 - **Search.js**: Contains the search component logic. Implement your debouncing logic and simulated API call here.
-- **App.css**: Use this file for styling your application to match the Spotify theme.
+- **index.css**: Use this file for styling your application to match the Spotify theme.
 
 #### Deliverable
 Submit your project to the LMS Project Tab. Ensure your submission includes all source code files and any additional resources used.
