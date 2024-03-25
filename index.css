@@ -1,0 +1,53 @@
+/* General body styling to match Spotify's dark theme */
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #121212; /* Spotify's dark background */
+  font-family: Arial, sans-serif;
+  color: #ffffff; /* Light text color for contrast */
+}
+
+/* Styling for the search container */
+.search-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #181818; /* Slightly lighter dark shade for the search area */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* Styling for the input field */
+.search-container input[type="text"] {
+  width: 90%;
+  padding: 10px 15px;
+  margin-bottom: 20px; /* Space between the input field and results list */
+  background-color: #282828; /* Dark shade for the input field */
+  border: 1px solid #000; /* Border to subtly define the input edges */
+  border-radius: 4px;
+  color: #ffffff; /* Light text color for contrast */
+  font-size: 16px;
+}
+
+.search-container input[type="text"]::placeholder {
+  color: #ccc; /* Placeholder text color */
+}
+
+/* Styling for the search results list */
+.search-container ul {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+.search-container ul li {
+  padding: 10px 15px;
+  margin-bottom: 2px; /* Small gap between items for visual separation */
+  background-color: #282828; /* Each item uses the same dark shade as the input field */
+  border-radius: 4px;
+  cursor: pointer; /* Indicates the items are interactive */
+}
+
+.search-container ul li:hover {
+  background-color: #1db954; /* Spotify's brand green for hover state */
+}
